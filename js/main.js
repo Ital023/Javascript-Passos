@@ -28,9 +28,3 @@ for(var i = 0; i < pacientes.length;i++){
         valueImc.textContent = imc.toFixed(2);
     }
 }
-
-function calcularImc(peso,altura){
-    return peso / (altura * altura);
-}
-
-
