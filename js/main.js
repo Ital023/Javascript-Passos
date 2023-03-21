@@ -25,6 +25,6 @@ for(var i = 0; i < pacientes.length;i++){
     
     if(validacao == true){
         var imc = calcularImc(peso,altura);
-        valueImc.textContent = imc.toFixed(2);
+        valueImc.textContent = imc;
     }
 }
